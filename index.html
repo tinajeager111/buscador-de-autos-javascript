@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Buscador web </title>
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">  
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+    <h1>Buscador de Libros</h1>
+
+    <div class="contenedor">
+
+        
+
+        <form id="buscador">
+            <div class="row">
+                <div class="three columns">
+                    <label for="Era">Era</label>
+                    <select class="u-full-width" id="Era">
+                        <option value="">Seleccione</option>
+                        <option value="The High Republic">The High Republic</option>
+                        <option value="Age of Republic">Age of Republic</option>
+                        <option value="Age of Rebellion">Age of Rebellion</option>
+                        <option value="Age of Resistance">Age of Resistance</option>
+                    </select>
+                </div>
+                <div class="three columns">
+                    <label for="Edicion">Edicion</label>
+                    <select class="u-full-width" id="Edicion">
+                        <option value="">Seleccione</option>
+                    </select>
+                </div>
+                <div class="three columns">
+                    <label for="Autor">Autor</label>
+                    <select class="u-full-width" id="Autor">
+                        <option value="">Seleccione</option>
+                        <option value="Charles Soule">Charles Soule</option>
+                        <option value="Claudia Gray">Claudia Gray</option>
+                        <option value="Cavan Scott">Cavan Scott</option>
+                        <option value="Justina Ireland">Justina Ireland</option>
+                        <option value="Daniel José Older">Daniel José Older</option>
+                        <option value="Kiersten White">Kiersten White</option>
+                        <option value="E. K. Johnston">E. K. Johnston</option>
+                        <option value="Mike Chen"> Mike Chen</option>
+                        <option value="Christie Golden"> Christie Golden</option>
+                        <option value="James Luceno">James Luceno</option>
+                        <option value="Timothy Zahn">Timothy Zahn</option>
+                        <option value="Paul S. Kemp">Paul S. Kemp</option>
+                        <option value="Rae Carson">Rae Carson</option>
+                        <option value="Beth Revis"> Beth Revis</option>
+                        <option value="John Jackson Miller">John Jackson Miller</option>
+                        <option value="Marjorie Liu">Marjorie Liu</option>
+                        <option value="Alexander Freed">Alexander Freed</option>
+                        <option value="Christie Golden">Christie Golden</option>
+                        <option value="Kevin Hearne">Kevin Hearne</option>
+                        <option value="Sarah Kuhn">Sarah Kuhn</option>
+                        <option value="Chuck Wendig">Chuck Wendig</option>
+                        <option value="Alex Segura">Alex Segura</option>
+                        <option value="Adam Christopher">Adam Christopher</option>
+                        <option value="Kevin Shinick">Kevin Shinick</option>
+                        <option value="Delilah S. Dawson">Delilah S. Dawson</option>
+                        <option value="Alan Dean Foster">Alan Dean Foster</option>
+                        <option value="Jason Fry">Jason Fry</option>
+                        <option value="Justina Ireland">Justina Ireland</option>
+                        <option value="Rebecca Roanhorse">Rebecca Roanhorse</option>
+                        <option value="Zoraida Córdova">Zoraida Córdova</option>
+                    </select>
+                </div>
+
+                <div class="row">
+                    <div class="four columns">
+                        <label for="Categoria">Categoria</label>
+                        <select class="u-full-width" id="Categoria">
+                            <option value="">Seleccione</option>
+                            <option value="Romance">Romance</option>
+                            <option value="Drama">Drama</option>
+                            <option value="Comedia">Comedia</option>
+                            <option value="Accion">Accion</option>
+                        </select>
+                    </div>
+                    <div class="four columns">
+                        <label for="Episodio">Episodio</label>
+                        <select class="u-full-width" id="Episodio">
+                            <option value="">Seleccione</option>
+                            <option value="IX">IX</option>
+                            <option value="VIII">VIII</option>
+                            <option value="VII">VII</option>
+                            <hr>
+                            <option value="VI">VI</option>
+                            <option value="V">V</option>
+                            <option value="IV">IV</option>
+                            <hr>
+                            <option value="III">III</option>
+                            <option value="II">II</option>
+                            <option value="I">I</option>
+                            <hr>
+                            <option value="A.I">A.I</option>
+                        </select>
+                    </div>
+                    <div class="four columns">
+                        <label for="ISBN" class="u-full-width">ISBN</label>
+                        <select class="u-full-width" id="ISBN">
+                            <option value=" ">Seleccione</option>
+                            <option value="9783833234798">9783833234798</option>
+                            <option value="9789870282044">9789870282044</option>
+                            <option value="9788411121163">9788411121163</option>
+                            <option value="9788413417820">9788413417820</option>
+                            <option value="9788411400244">9788411400244</option>
+                            <option value="9788491469377">9788491469377</option>
+                            <option value="9788411129800">9788411129800</option>
+                            <option value="9789504962847">9789504962847</option>
+                            <option value="9788411400268">9788411400268</option>
+                            <option value="9788411121439">9788411121439</option>
+                            <option value="9780593158593">9780593158593</option>
+                            <option value="9788411400411">9788411400411</option>
+                            <option value="9786070743405">9786070743405</option>
+                            <option value="9788467111767">9788467111767</option>
+                            <option value="9786070751165">9786070751165</option>
+                            <option value="9781368045582">9781368045582</option>
+                            <option value="9788491740681">9788491740681</option>
+                            <option value="9788411129763">9788411129763</option>
+                            <option value="9504968910">9504968910</option>
+                            <option value="9788411408646">9788411408646</option>
+                            <option value="9788596037693">9788596037693</option>
+                            <option value="9788408246848">9788408246848</option>
+                            <option value="9786070768897">9786070768897</option>
+                            <option value="9783833232039">9783833232039</option>
+                            <option value="9783734162565">9783734162565</option>
+                            <option value="9783736733121">9783736733121</option>
+                            <option value="9780345544865">9780345544865</option>
+                            <option value="9781761210013">9781761210013</option>
+                            <option value="9788411121132">9788411121132</option>
+                            <option value="9788408217787">9788408217787</option>
+                            <option value="9788411403795">9788411403795</option>
+                            <option value="9788411407175">9788411407175</option>
+                            <option value="9788411409391">9788411409391</option>
+                            <option value="9780593157725">9780593157725</option>
+                            <option value="9783736799677">9783736799677</option>
+                            <option value="9781484780787">9781484780787</option>
+                            <option value="9783833233951">9783833233951</option>
+                            <option value="9783734160707">9783734160707</option>
+                            <option value="9786070763090">9786070763090</option>
+                            <option value="9783736798380">9783736798380</option>
+                            <option value="9786556092621">9786556092621</option>
+                            <option value="9786070772344">9786070772344</option>
+                            <option value="9780399178450">9780399178450</option>
+                            <option value="9788411610056">9788411610056</option>
+                            <option value="9781101888292">9781101888292</option>
+                            <option value="9783734161384">9783734161384</option>
+                            <option value="9783734161742">9783734161742</option>
+                            <option value="9783734161384">9783734161384</option>
+                            <option value="9788411121156">9788411121156</option>
+                            <option value="9786070750090">9786070750090</option>
+                            <option value="9781368048538">9781368048538</option>
+                            <option value="9789807412513">9789807412513</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+        <h1>Resultados</h1>
+        <div id="resultado"></div>
+    </div>
+
+    <a class="sitio-web"  >ED Tecnica EG</a>
+
+    <script src="js/db.js"></script>
+    <script  src="js/buscador.js"></script>
+</body>
+</html>
